@@ -56,13 +56,19 @@ Division: 0.5
 
 Asks the user to enter their first name.
 
+a=input("Enter your first name:")
+
 Stores it as a string in variable a.
 
 Asks the user to enter their last name.
 
+b=input("Enter your last name:")
+
 Stores it as a string in variable b.
 
 Combines the first name and last name with a space in between (a + " " + b).
+
+print("Hello," ,a+" "+b+"!","Welcome to the Python program.")
 
 Prints a full greeting like as expected output:
 
